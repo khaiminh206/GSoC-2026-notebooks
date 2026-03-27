@@ -22,8 +22,8 @@ This repository contains my solutions for the **DeepLense** evaluation tests for
 The model successfully distinguished between the three subtle physical structures with high confidence.
 * **Evaluation Metric:** One-vs-Rest ROC Curve and AUC Score.
 
-
-
+* **Result after 10 batches:** 
+![ROC test 1](/Users/macos/Desktop/GSoC-2026-notebooks/roc_test.png)
 ##  2. Specific Test V: Lens Finding & Data Pipelines
 
 **Task:** Build a model to identify lenses (Lenses vs. Non-lenses) from observational data across three different filters (shape: 3, 64, 64). 
@@ -38,5 +38,6 @@ The primary challenge of this test is the **highly imbalanced nature of the univ
 ###  Results
 The combination of Weighted Loss and Transfer Learning yielded an exceptional ability to detect rare gravitational lenses without being biased towards the majority class.
 * **Evaluation Metric:** Binary ROC Curve and AUC Score.
-* **Final AUC Score:** **0.9813**
+* **Result after 5 batches:** 
+![ROC test 2](/Users/macos/Desktop/GSoC-2026-notebooks/roc_test2.png)
 
