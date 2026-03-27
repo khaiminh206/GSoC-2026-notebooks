@@ -23,7 +23,7 @@ The model successfully distinguished between the three subtle physical structure
 * **Evaluation Metric:** One-vs-Rest ROC Curve and AUC Score.
 
 * **Result after 10 batches:** 
-![ROC test 1](/Users/macos/Desktop/GSoC-2026-notebooks/roc_test.png)
+![ROC test 1](/Users/macos/Desktop/GSoC-2026-notebooks/roc_test1.png)
 ##  2. Specific Test V: Lens Finding & Data Pipelines
 
 **Task:** Build a model to identify lenses (Lenses vs. Non-lenses) from observational data across three different filters (shape: 3, 64, 64). 
